@@ -90,8 +90,10 @@ module.exports = { object, findPhoneByName};
 
 //Implementing function containing local variable with hoisting
 
-const hoistingFnc = (name) => {
+const hoistingFnc = (name, surname) => {
     let name;
-  return `Hello ${name}!`  
+    let surname;
+  return `Hello ${name} ${surname}!`  
 }
-hoistingFnc('Jack');
+hoistingFnc('Jack', 'Wu');
+
