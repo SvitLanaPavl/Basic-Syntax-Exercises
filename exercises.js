@@ -1,6 +1,6 @@
 
 //returning a greeting
-let myName = 'Lana';
+let myName = 'Karen';
 const birthYear = 1990;
 const greeting = (name) => {
     return `Hello, ${name}!`
